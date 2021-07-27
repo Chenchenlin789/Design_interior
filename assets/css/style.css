@@ -1,0 +1,236 @@
+/* Font: Lora/ Work sans
+Farbe: #2e2e2e / #fff / #000 /  #1d2c2f 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+
+body {
+    font-family: 'Lora', serif;
+    margin: 0 auto;
+}
+
+/* first page */
+
+body header {
+    margin-top: 0;
+    padding-top: 0;
+
+}
+
+header h1 {
+   padding: 20% 20% 0 20%;
+   line-height: 1.5;
+
+}
+
+header p {
+    margin: 5px;
+    padding-bottom: 20%;
+    padding-left: 16%;  
+}
+
+/* background */
+#first {
+    margin-top: 0;
+    background-image: url(../img/design-interior-1.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+/* navigation */
+
+.logo {
+    height: 35px;
+    width: 75px;
+   
+} 
+
+#navi {
+    height: 65px;
+    background: #2e2e2e;
+    color: white;
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+nav ul li {
+    padding-right: 107px;
+    padding-left: 37px;
+}
+
+/* second page */
+.story {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    background:  #2e2e2e; 
+    color: white;
+    height: 100vh;
+    padding-top: 110px;
+    padding-bottom: 140px;
+}
+
+.text {
+    padding: 5%;
+    text-align: center;
+}
+
+.paragraph {
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.7;
+
+}
+
+/* third page */
+main section:nth-of-type(2) {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 120px;
+    letter-spacing: 3px;
+    
+}
+
+
+.pics {
+    padding-top: 15px;
+    margin-top: 105px;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+iframe {
+    margin-top: 105px;
+}
+
+
+/* last page */
+.last {
+    background: #2e2e2e;
+    height: 80vh;
+    color: white;
+    display: flex;
+}
+
+.wid {
+    width: 60%;
+    padding-left: 3%;
+    margin-left: 3%;
+    margin-right: 36%;
+    margin-top: 90px;
+    line-height: 2;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+/* Styling of forms */
+
+form {
+    margin-top: 135px;
+    width: 400px;
+
+}
+
+
+form input {
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 80px;
+    width: 250px;
+    
+}
+
+/* submit button */
+
+.but {
+    width: 80px;
+}
+
+/* footer */
+footer {
+    background-color:  #1d2c2f;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+footer div ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+footer ul li {
+    padding-right: 10px;
+    padding-left: 8px;
+    margin-right: 5px;
+}
+
+/* Smartphone */
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: tomato;
+    }
+
+    nav ul li {
+        padding-right: 10px;
+        padding-left: 30px;
+    }
+
+    .story { 
+        display:block;
+        /* margin-bottom: 70px;
+        padding-bottom: 10px; */
+    height: 120vh;
+    padding-bottom: 90px;
+    }
+
+    .pics {
+        display: block;
+        padding: 10%;
+    
+    }
+
+    .last {
+        height: 120vh;
+        display: block;
+        padding-top: 10px;
+    }
+
+    form {
+        display: block;
+        padding-left: 35px;   
+    }
+
+    footer {
+        font-size: smaller;
+    }
+
+
+
+
+
+
+
+}
