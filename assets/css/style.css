@@ -3,12 +3,17 @@ Farbe: #2e2e2e / #fff / #000 /  #1d2c2f
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 
 
 body {
     font-family: 'Lora', serif;
     margin: 0 auto;
+}
+
+* {
+    margin:0;
 }
 
 /* first page */
@@ -20,8 +25,13 @@ body header {
 }
 
 header h1 {
-   padding: 20% 20% 0 20%;
+    font-family: 'Lora', serif;
+   padding: 10% 10% 0 15%;
    line-height: 1.5;
+   font-size: 5em;
+   font-weight: 600;
+   letter-spacing: 0.5rem;
+   
 
 }
 
@@ -114,8 +124,15 @@ main section:nth-of-type(2) {
     padding-left: 7%;
     padding-right: 7%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
+.pics figure {
+    width: 30%;
+    padding: 2% 0;
+}
+    
 
 iframe {
     margin-top: 105px;
@@ -170,6 +187,8 @@ footer {
     color: white;
     display: flex;
     justify-content: space-around;
+    height: 45px;
+    text-align: center;
 }
 
 
@@ -178,6 +197,9 @@ footer div ul {
     display: flex;
     justify-content: flex-end;
     justify-content: space-between;
+    height: 45px;
+    text-align: center;
+    
 }
 
 footer ul li {
@@ -209,7 +231,18 @@ footer ul li {
     .pics {
         display: block;
         padding: 10%;
-    
+        text-align: center
+    }
+
+    .pics figure {
+        width: 40%;
+        padding: 5% 0;
+    }
+    .pics figcation {
+        width: 60%;
+        margin: 2% 0;
+        padding-left: 85px;
+        text-align: center;
     }
 
     .last {
@@ -226,11 +259,5 @@ footer ul li {
     footer {
         font-size: smaller;
     }
-
-
-
-
-
-
 
 }
